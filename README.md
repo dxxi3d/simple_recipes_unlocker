@@ -6,6 +6,10 @@
 
 Automatically unlocks all crafting recipes for players upon joining the world, connecting to server or reloading data packs.
 
+## Download
+* [Modrinth](https://modrinth.com/mod/simple_recipes_unlocker)
+* [CurseForge](https://www.curseforge.com/minecraft/mc-mods/simple-recipes-unlocker)
+
 ## Issues & Feedback
 If you encounter any bugs or have feature requests, please report them on the [GitHub Issue Tracker](https://github.com/dxxi3d/simple_recipes_unlocker/issues).
 
