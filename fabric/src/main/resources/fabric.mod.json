@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "simple_recipes_unlocker",
+  "version": "${version}",
+  "name": "Simple Recipes Unlocker",
+  "description": "Automatically unlocks all crafting recipes for players upon joining or data pack reload.",
+  "authors": [
+    "dxxi3d"
+  ],
+  "contact": {
+    "sources": "https://github.com/dxxi3d/simple_recipes_unlocker",
+    "issues": "https://github.com/dxxi3d/simple_recipes_unlocker/issues"
+  },
+  "license": "All Rights Reserved",
+  "icon": "assets/simple_recipes_unlocker/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dxxi3d.simple_recipes_unlocker.MainFabric"
+    ]
+  },
+  "mixins": [
+    "simple_recipes_unlocker.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": ">=${minecraft_version}",
+    "java": ">=25"
+  }
+}

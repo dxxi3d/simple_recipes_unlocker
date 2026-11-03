@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "dxxi3d.simple_recipes_unlocker.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "mixins": [
+    "PlayerListMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

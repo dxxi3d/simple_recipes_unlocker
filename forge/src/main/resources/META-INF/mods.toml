@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="simple_recipes_unlocker"
+version="${version}"
+displayName="Simple Recipes Unlocker"
+description="Automatically unlocks all crafting recipes for players upon joining or data pack reload."
+authors="dxxi3d"
+displayURL="https://github.com/dxxi3d/simple_recipes_unlocker"
+issueTrackerURL="https://github.com/dxxi3d/simple_recipes_unlocker/issues"
+logoFile="assets/simple_recipes_unlocker/icon.png"
+
+[[mixins]]
+config="simple_recipes_unlocker.mixins.json"
+
+[[dependencies.simple_recipes_unlocker]]
+modId="forge"
+mandatory=true
+versionRange="[1,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.simple_recipes_unlocker]]
+modId="minecraft"
+mandatory=true
+versionRange="[${minecraft_version},)"
+ordering="NONE"
+side="BOTH"
